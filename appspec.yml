@@ -1,4 +1,4 @@
-version: 0.0              # specifies the version number of the file format.
+version: 0.0              # specifies the version number of the file format is created by the Team Member
 os: linux                 # specifies the operating system to be used.
 files:                    # is an array of files to be copied from the source to the destination directory.
   - source: /             # specifies the source directory.
@@ -12,3 +12,4 @@ hooks:                    # is an array of scripts to be executed at different p
     - location: start_nginx.sh
       timeout: 300
       runas: root
+
